@@ -26,8 +26,9 @@ function App() {
       <Route exact path="/checkout">
         <Checkout />
       </Route> 
-
-
+      <Route path="*">
+        <Error />
+      </Route>
     </Switch>
   </Router>
 }
