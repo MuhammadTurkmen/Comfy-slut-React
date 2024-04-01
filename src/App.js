@@ -32,6 +32,7 @@ function App() {
         <Error />
       </Route>
     </Switch>
+    <Footer />
   </Router>
 }
 
