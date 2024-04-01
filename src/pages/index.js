@@ -8,5 +8,12 @@ import Checkout from './CheckoutPage'
 import PrivateRoute from './PrivateRoute'
 
 export {
-    Home
+    Home,
+    Products,
+    SingleProduct,
+    About,
+    Cart,
+    Error,
+    Checkout,
+    PrivateRoute
 }
