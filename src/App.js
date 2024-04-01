@@ -7,6 +7,8 @@ import { Home, SingleProduct, Cart, Checkout, Error,About, Products, PrivateRout
 
 function App() {
   return <Router>
+    <Navbar />
+    <Sidebar />
     <Switch>
       <Route exact path="/">
         <Home />
