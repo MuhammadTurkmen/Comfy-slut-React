@@ -17,6 +17,9 @@ function App() {
       <Route exact path="/cart">
         <Cart />
       </Route>
+      <Route exact path="/products">
+        <Products />
+      </Route>
 
     </Switch>
   </Router>
