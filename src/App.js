@@ -19,7 +19,9 @@ function App() {
       </Route>
       <Route exact path="/products">
         <Products />
-      </Route>
+      </Route> 
+
+      <Route exact path="/products/:id" children={<SingleProduct />} />
 
     </Switch>
   </Router>
