@@ -11,6 +11,7 @@ const AboutPage = () => {
       <article>
         <div className='title'>
           <h2>our story</h2>
+          <div className='underline'></div>
         </div>
       </article>
     </Wrapper>
