@@ -11,6 +11,9 @@ const FeaturedProducts = () => {
   if(loading) {
     return <Loading />
   }
+  if(error) {
+    return <Error />
+  }
   
   return <h4>featured products</h4>
 }
