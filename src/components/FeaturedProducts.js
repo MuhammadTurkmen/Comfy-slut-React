@@ -20,6 +20,7 @@ const FeaturedProducts = () => {
       <h2>featured products</h2>
       <div className='underline'></div>
     </div>
+    <div className='section-center featured'></div>
   </Wrapper>
 }
 
