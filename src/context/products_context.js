@@ -14,7 +14,8 @@ import {
 } from '../actions'
 
 const initialState = {
-  isSidebarOpen: false
+  isSidebarOpen: false,
+  
 }
 
 const ProductsContext = React.createContext(reducer, initialState)
@@ -22,6 +23,9 @@ const ProductsContext = React.createContext(reducer, initialState)
 export const ProductsProvider = ({ children }) => {
   const [state, dispatch] = useReducer()
 
+  const openSidebar = () => {
+    dispatch({type: 'SIDEBAR_OPEN'})
+  }
 
   return (
     <ProductsContext.Provider value='products context'>
