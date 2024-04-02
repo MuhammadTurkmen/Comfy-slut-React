@@ -2,7 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Contact = () => {
-  return <Wrapper>contact section</Wrapper>
+  return <Wrapper>
+    <div className='section-center'>
+      <h3></h3>
+    </div>
+  </Wrapper>
 }
 const Wrapper = styled.section`
   padding: 5rem 0;
