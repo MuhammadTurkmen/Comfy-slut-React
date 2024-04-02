@@ -10,7 +10,9 @@ const Contact = () => {
           Voluptates, ea. Perferendis corrupti reiciendis 
           nesciunt rerum velit autem unde numquam nisi'
         </p>
-        <form className='contact-form'></form>
+        <form className='contact-form'>
+          <input type='email' className='form-input' placeholder='enter email'/>
+        </form>
       </div>
     </div>
   </Wrapper>
