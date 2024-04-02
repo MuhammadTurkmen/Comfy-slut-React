@@ -15,7 +15,7 @@ const FeaturedProducts = () => {
     return <Error />
   }
   
-  return <Wrapper>featured products</Wrapper>
+  return <Wrapper className='section'>featured products</Wrapper>
 }
 
 const Wrapper = styled.section`
