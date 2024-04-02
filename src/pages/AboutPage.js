@@ -9,7 +9,9 @@ const AboutPage = () => {
     <Wrapper className='page section section-center'>
       <img src={aboutImg} alt='nice desk' />
       <article>
-        <div className='title'></div>
+        <div className='title'>
+          <h2>our story</h2>
+        </div>
       </article>
     </Wrapper>
   </main>
