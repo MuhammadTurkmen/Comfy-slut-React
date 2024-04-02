@@ -5,7 +5,9 @@ import heroBcg from '../assets/hero-bcg.jpeg'
 import heroBcg2 from '../assets/hero-bcg-2.jpeg'
 
 const Hero = () => {
-  return <Wrapper>hero</Wrapper>
+  return <Wrapper className='section-center'>
+
+  </Wrapper>
 }
 
 const Wrapper = styled.section`
