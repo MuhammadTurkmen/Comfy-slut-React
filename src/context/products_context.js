@@ -5,7 +5,7 @@ import { products_url as url } from '../utils/constants'
 import {
   SIDEBAR_OPEN,
   SIDEBAR_CLOSE,
-  GET_PRODUCTS_BEGIN,
+  GET_PRODUCTS_BEGIN, 
   GET_PRODUCTS_SUCCESS,
   GET_PRODUCTS_ERROR,
   GET_SINGLE_PRODUCT_BEGIN,
