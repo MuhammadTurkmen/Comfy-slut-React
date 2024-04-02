@@ -15,7 +15,7 @@ import {
 
 const initialState = {}
 
-const ProductsContext = React.createContext()
+const ProductsContext = React.createContext(reducer, initialState)
 
 export const ProductsProvider = ({ children }) => {
   const [state, dispatch] = useReducer()
