@@ -17,7 +17,12 @@ const Sidebar = () => {
         <button className='close-btn' type='button'>
           <FaTimes /> 
         </button>
-      </div>
+      </div>  
+      <ul className='links'>
+        {links.map((link) => {
+          const {id, }
+        })}
+      </ul>
     </aside>
   </SidebarContainer>
 }
