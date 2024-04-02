@@ -20,15 +20,15 @@ const initialState = {
 
 const ProductsContext = React.createContext(reducer, initialState)
 
-export const ProductsProvider = ({ children }) => {
-  const [state, dispatch] = useReducer()
+export const ProductsProvider = ({ children }) => { 
+  const [state, dispatch] = useReducer(reducer, initialState)
 
   const openSidebar = () => {
     dispatch({type: 'SIDEBAR_OPEN'})
   }
 
   useEffect(() => {
-
+    openSidebar()
   }, [])
 
 
