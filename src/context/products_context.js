@@ -19,7 +19,7 @@ const initialState = {
   products_error: false,
   products: [],
   featured_products: [],
-  
+  single_product_loading: false
 }
 
 const ProductsContext = React.createContext(reducer, initialState)
@@ -43,6 +43,10 @@ export const ProductsProvider = ({ children }) => {
     } catch (error) {
       dispatch({type: GET_PRODUCTS_ERROR})
     }
+  }
+
+  const fetchSingleProduct = async (url) => {
+    dispatch({type: })
   }
 
   useEffect(() => {
