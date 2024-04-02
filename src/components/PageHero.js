@@ -5,7 +5,7 @@ const PageHero = () => {
   return <h4>page hero</h4>
 }
 
-const Wrapper = styled.section`
+const Wrapper = styled.section` 
   background: var(--clr-primary-10);
   width: 100%;
   min-height: 20vh;
