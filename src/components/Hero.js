@@ -11,6 +11,7 @@ const Hero = () => {
         design your <br />
         comfort zone
       </h1>
+      <p></p>
     </article>
   </Wrapper>
 }
