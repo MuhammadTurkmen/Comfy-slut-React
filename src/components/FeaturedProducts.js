@@ -15,7 +15,12 @@ const FeaturedProducts = () => {
     return <Error />
   }
   
-  return <Wrapper className='section'>featured products</Wrapper>
+  return <Wrapper className='section'>
+    <div className='title'>
+      <h2>featured products</h2>
+      <div className='underline'></div>
+    </div>
+  </Wrapper>
 }
 
 const Wrapper = styled.section`
