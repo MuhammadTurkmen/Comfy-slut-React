@@ -27,6 +27,11 @@ export const ProductsProvider = ({ children }) => {
     dispatch({type: 'SIDEBAR_OPEN'})
   }
 
+  useEffect(() => {
+
+  }, [])
+
+
   return (
     <ProductsContext.Provider value='products context'>
       {children}
