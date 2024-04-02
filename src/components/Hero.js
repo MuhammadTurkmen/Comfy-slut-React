@@ -18,7 +18,9 @@ const Hero = () => {
          It has survived not only five centuries, but also the leap into electronic 
          typesetting, remaining essentially unchanged.
       </p>
-      <Link to='/products' className='btn hero-btn'></Link>
+      <Link to='/products' className='btn hero-btn'>
+        shop now
+      </Link>
     </article>
   </Wrapper>
 }
