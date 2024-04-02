@@ -41,7 +41,7 @@ export const ProductsProvider = ({ children }) => {
       const products = response.data
       dispatch({type: GET_PRODUCTS_SUCCESS, payload: products})
     } catch (error) {
-      
+      dispatch({type: GET_PRODUCTS_ERROR})
     }
   }
 
