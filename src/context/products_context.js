@@ -34,7 +34,11 @@ export const ProductsProvider = ({ children }) => {
 
 
   return (
-    <ProductsContext.Provider value='products context'>
+    <ProductsContext.Provider value={{
+      ...state,
+      openSidebar,
+      closeSidebar
+    }}>
       {children}
     </ProductsContext.Provider>
   )
