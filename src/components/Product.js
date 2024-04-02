@@ -4,7 +4,7 @@ import { formatPrice } from '../utils/helpers'
 import { FaSearch } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
-const Product = () => {
+const Product = ({image, name, price, id}) => {
   return <h4>product</h4>
 }
 
