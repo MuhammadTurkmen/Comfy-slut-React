@@ -20,7 +20,11 @@ const FeaturedProducts = () => {
       <h2>featured products</h2>
       <div className='underline'></div>
     </div>
-    <div className='section-center featured'></div>
+    <div className='section-center featured'>
+      {featured.map((product) => {
+        return <Product key={product.id} {...product} />
+      })}
+    </div>
   </Wrapper>
 }
 
