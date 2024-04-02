@@ -15,10 +15,11 @@ const Nav = () => {
         <Link to="/">
           <img src={logo} alt='comfy sloth' />
         </Link>
-        <button type='button' className='nav-toggle'>
+        <button type='button' className='nav-toggle' >
           <FaBars />
         </button>
       </div>
+      <ul className='nav-links'></ul>
     </div>
   </NavContainer>
 }
