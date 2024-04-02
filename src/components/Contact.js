@@ -10,6 +10,7 @@ const Contact = () => {
           Voluptates, ea. Perferendis corrupti reiciendis 
           nesciunt rerum velit autem unde numquam nisi'
         </p>
+        <form className='contact-form'></form>
       </div>
     </div>
   </Wrapper>
