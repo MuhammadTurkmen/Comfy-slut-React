@@ -19,6 +19,9 @@ const products_reducer = (state, action) => {
   if(action.type === GET_PRODUCTS_BEGIN) {
     return {...state, products_loading: true}
   }
+  if(action.type === GET_PRODUCTS_SUCCESS) {
+    
+  }
 
   return state
   throw new Error(`No Matching "${action.type}" - action type`)
