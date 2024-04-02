@@ -18,6 +18,7 @@ const initialState = {}
 const ProductsContext = React.createContext()
 
 export const ProductsProvider = ({ children }) => {
+  const [state, dispatch] = useReducer()
   return (
     <ProductsContext.Provider value='products context'>
       {children}
