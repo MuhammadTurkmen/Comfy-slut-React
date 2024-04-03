@@ -3,7 +3,9 @@ import styled from 'styled-components'
 import { BsStarFill, BsStarHalf, BsStar } from 'react-icons/bs'
 const Stars = ({stars, reviews}) => {
   return <Wrapper>
-    
+    <div className='stars'>
+      
+    </div>
   </Wrapper>
 }
 
