@@ -20,7 +20,7 @@ const Services = () => {
             const {id, icon, title, text} = service
             return (
               <article key={id} className='service'>
-                <sapn className='icon'>{icon}</sapn>
+                <span className='icon'>{icon}</span>
                 <h4>{title}</h4>
                 <p>{text}</p>
               </article>
