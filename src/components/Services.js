@@ -15,7 +15,14 @@ const Services = () => {
             velit autem unde numquam nisi'Lorem ipsum,
           </p>
         </article>
-        <div className='services-center'></div>
+        <div className='services-center'>
+          {services.map((service) => {
+            const {id, icon, title, text} = service
+            return <article key={id} className='service'>
+              <sapn className='icon'></sapn>
+            </article>
+          })}
+        </div>
       </div>
     </Wrapper>
   )
