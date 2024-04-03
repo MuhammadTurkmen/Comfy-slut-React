@@ -12,11 +12,10 @@ const Services = () => {
           </h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum 
-            velit autem unde numquam nisi'Lorem ipsum, dolor sit amet consectetur
-             adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis
-             nesciunt rerum velit autem unde numquam nisi'
+            velit autem unde numquam nisi'Lorem ipsum,
           </p>
         </article>
+        <div className='services-center'></div>
       </div>
     </Wrapper>
   )
