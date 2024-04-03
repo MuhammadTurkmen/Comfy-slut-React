@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Contact = () => {
-  return <h4>contact section</h4>
+  return <Wrapper>contact section</Wrapper>
 }
 const Wrapper = styled.section`
   padding: 5rem 0;
