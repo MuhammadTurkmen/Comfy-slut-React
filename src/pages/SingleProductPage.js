@@ -34,7 +34,7 @@ const SingleProductPage = () => {
         history.push('/')
       }, 3000);
     }
-  }, [])
+  }, [error])
   
   if(loading) {
     return <Loading />
