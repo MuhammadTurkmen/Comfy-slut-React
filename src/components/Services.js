@@ -3,15 +3,23 @@ import styled from 'styled-components'
 import { services } from '../utils/constants'
 
 const Services = () => {
-  return <Wrapper>
-    <div className='section-center'>
-      <article className='header'>
-        <h3>custom furniture <br/>
-        built only for you 
-        </h3>
-      </article>
-    </div>
-  </Wrapper>
+  return (
+    <Wrapper>
+      <div className='section-center'>
+        <article className='header'>
+          <h3>custom furniture <br />
+          built only for you 
+          </h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum 
+            velit autem unde numquam nisi'Lorem ipsum, dolor sit amet consectetur
+             adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis
+             nesciunt rerum velit autem unde numquam nisi'
+          </p>
+        </article>
+      </div>
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.section`
