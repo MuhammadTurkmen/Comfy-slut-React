@@ -6,7 +6,8 @@ const Services = () => {
   return <Wrapper>
     <div className='section-center'>
       <article className='header'>
-        
+        <h3>custom furniture <br/>
+        </h3>
       </article>
     </div>
   </Wrapper>
