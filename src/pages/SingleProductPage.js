@@ -44,7 +44,7 @@ const SingleProductPage = () => {
   }
   const {name, price, description, stock, stars, reviews, id: sku, company, images} = product
   return <Wrapper>
-    <PageHero title={name}/>
+    <PageHero title={name} product/>
   </Wrapper>
 }
 
