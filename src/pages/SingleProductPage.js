@@ -49,6 +49,7 @@ const SingleProductPage = () => {
       <Link to="/products" className="btn">
         back to products
       </Link>
+      <div className='product-center'></div>
     </div>
   </Wrapper>
 }
