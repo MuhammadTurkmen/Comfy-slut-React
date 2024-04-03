@@ -3,7 +3,11 @@ import styled from 'styled-components'
 import { services } from '../utils/constants'
 
 const Services = () => {
-  return <Wrapper>services </Wrapper>
+  return <Wrapper>
+    <div className='section-center'>
+      
+    </div>
+  </Wrapper>
 }
 
 const Wrapper = styled.section`
