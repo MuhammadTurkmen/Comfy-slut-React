@@ -45,6 +45,11 @@ const SingleProductPage = () => {
   const {name, price, description, stock, stars, reviews, id: sku, company, images} = product
   return <Wrapper>
     <PageHero title={name} product/>
+    <div className='section section-center page'>
+      <Link to="/products">
+        back to products
+      </Link>
+    </div>
   </Wrapper>
 }
 
