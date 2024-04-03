@@ -56,7 +56,10 @@ const SingleProductPage = () => {
           <Stars />
           <h5 className='price'>{formatPrice(price)}</h5>
           <p className='desc'>{description}</p>
-          <p className='info'></p>
+          <p className='info'>
+            <span>Available : </span>
+            {stock > 0 ? 'In stock' : 'out of stock'}
+          </p>
         </section>
 
       </div>
