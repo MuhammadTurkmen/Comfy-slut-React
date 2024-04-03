@@ -52,7 +52,8 @@ const SingleProductPage = () => {
       <div className='product-center'>
         <ProductImages />  
         <section className='content'>
-          <h2>{}</h2>
+          <h2>{name}</h2>
+          <Stars />
         </section>
 
       </div>
