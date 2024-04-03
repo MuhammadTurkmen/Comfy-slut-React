@@ -31,7 +31,7 @@ const SingleProductPage = () => {
   useEffect(() => {
     if(error) {
       setTimeout(() => {
-        
+        history.push('/')
       }, 3000);
     }
   }, [])
