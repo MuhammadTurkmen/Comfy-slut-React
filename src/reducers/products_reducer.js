@@ -1,3 +1,4 @@
+import { type } from '@testing-library/user-event/dist/type'
 import {
   SIDEBAR_OPEN,
   SIDEBAR_CLOSE, 
@@ -26,6 +27,10 @@ const products_reducer = (state, action) => {
 
   if(action.type === GET_PRODUCTS_ERROR) {
     return {...state, products_loading: false, products_error: true}
+  }
+
+  if(action.type === GET_SINGLE_PRODUCT_BEGIN) {
+    return {...state, single_product_loading: true, single_product_error: false}
   }
  
   throw new Error(`No Matching "${action.type}" - action type`)
