@@ -24,7 +24,7 @@ const SingleProductPage = () => {
   } = useProductsContext()
 
   useEffect(() => {
-    
+    fetchSingleProduct(`${url}${id}`)
   }, [id])
   
   
