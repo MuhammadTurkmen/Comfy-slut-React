@@ -54,6 +54,7 @@ const SingleProductPage = () => {
         <section className='content'>
           <h2>{name}</h2>
           <Stars />
+          <h5 className='price'>{formatPrice(price)}</h5>
         </section>
 
       </div>
