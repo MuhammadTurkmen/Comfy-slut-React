@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { BsStarFill, BsStarHalf, BsStar } from 'react-icons/bs'
-const Stars = () => {
+const Stars = ({stars, reviews}) => {
   return <h4>stars</h4>
 }
 
