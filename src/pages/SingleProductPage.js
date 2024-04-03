@@ -22,6 +22,12 @@ const SingleProductPage = () => {
     single_product: product,
     fetchSingleProduct
   } = useProductsContext()
+
+  useEffect(() => {
+    
+  }, [id])
+  
+  
   return <h4>single product page</h4>
 }
 
