@@ -5,7 +5,9 @@ import { services } from '../utils/constants'
 const Services = () => {
   return <Wrapper>
     <div className='section-center'>
-      
+      <article className='header'>
+        
+      </article>
     </div>
   </Wrapper>
 }
