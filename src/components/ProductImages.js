@@ -5,6 +5,11 @@ const ProductImages = ({images = [{url: ''}]}) => {
   const [main, setMain] = useState(images[0])
   return <Wrapper>
     <img src={main.url} alt='main image'className='main'/>
+    <div className='gallery'>
+      {images.map((image) => {
+
+      })}
+    </div>
   </Wrapper>
 }
 
