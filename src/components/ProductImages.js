@@ -3,7 +3,9 @@ import styled from 'styled-components'
 
 const ProductImages = ({images = []}) => {
   const [main, setMain] = useState(images[0])
-  return <h4>product images</h4>
+  return <Wrapper>
+    <img />
+  </Wrapper>
 }
 
 const Wrapper = styled.section`
