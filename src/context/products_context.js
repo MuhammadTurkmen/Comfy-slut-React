@@ -51,7 +51,7 @@ export const ProductsProvider = ({ children }) => {
     dispatch({type: GET_SINGLE_PRODUCT_BEGIN})
   }
 
-  useEffect(() => {
+  useEffect(() => { 
     fetchProducts(url)
   }, [])
 
