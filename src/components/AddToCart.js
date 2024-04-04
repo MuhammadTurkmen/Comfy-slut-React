@@ -11,7 +11,7 @@ const AddToCart = ({product}) => {
   
   return <Wrapper>
     <div className='colors'>
-      <span></span>
+      <span> colors : </span>
     </div>
     <div className='btn-container'></div>
   </Wrapper>
