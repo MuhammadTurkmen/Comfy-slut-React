@@ -5,7 +5,7 @@ const Stars = ({stars, reviews}) => {
   // <span>{stars >= 1 ? <BsStarFill /> : stars >= 0.5 ? <BsStarHalf /> : <BsStar />}</span>
 
   const tempStars = Array.from({length: 5}, (_, index) => {
-
+    // index 0 - 4
   })
   
   return <Wrapper>
