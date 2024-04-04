@@ -30,7 +30,6 @@ const decrease = () => {
       return tempAmount
     })
   }
-  }
   
   return <Wrapper>
     <div className='colors'>
