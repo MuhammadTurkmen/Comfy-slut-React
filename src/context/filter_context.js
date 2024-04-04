@@ -12,7 +12,10 @@ import {
 } from '../actions'
 import { useProductsContext } from './products_context'
 
-const initialState = {}
+const initialState = {
+  filtered_products: [],
+  all_products: []
+}
 
 const FilterContext = React.createContext()
 
