@@ -10,6 +10,10 @@ const ProductList = () => {
       Sorry, no product matched your search...
     </h5>
   }
+
+  if(grid_view === false) {
+    return <ListView products={products} />
+  }
   return <GridView products={products}>
     
   </GridView>
