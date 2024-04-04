@@ -17,8 +17,8 @@ const AddToCart = ({product}) => {
           return <button 
             key={index} 
             style={{background: color}}  
-            className='color-btn'>{index}
-          </button>
+            className='color-btn'
+          >{index}</button>
         })
       }</div>
     </div>
