@@ -12,6 +12,11 @@ const AddToCart = ({product}) => {
   return <Wrapper>
     <div className='colors'>
       <span> colors : </span>
+      <div>{
+        colors.map((color, index) => {
+
+        })
+      }</div>
     </div>
     <div className='btn-container'></div>
   </Wrapper>
