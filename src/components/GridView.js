@@ -2,8 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import Product from './Product'
 
-const GridView = () => {
-  return <h4>Grid View</h4>
+const GridView = ({products}) => {
+  return <Wrapper>
+    <div className='products-container'>
+      
+    </div>
+  </Wrapper>
 }
 
 const Wrapper = styled.section`
