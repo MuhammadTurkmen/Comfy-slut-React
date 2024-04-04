@@ -6,7 +6,7 @@ const Stars = ({stars, reviews}) => {
     <div className='stars'>
       {/* star */}
       <span>
-        {stars >= 1 ? <BsStarFill /> : null}
+        {stars >= 1 ? <BsStarFill /> : stars >= 0.5 ? <BsStarHalf /> : <BsStar />}
       </span>
       {/* end of star */}
     </div>
