@@ -12,7 +12,13 @@ const AddToCart = ({product}) => {
   const [amount, setAmount] = useState(1)
 
   const increase = () => {
-
+    setAmount((oldAmount) => {
+      let tempAmount = oldAmount + 1
+      if(tempAmount > stock) {
+        tempAmount = stock
+      }
+      return tempAmount
+    })
   }
 
   const decrease = () => {
