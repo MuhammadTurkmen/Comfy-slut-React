@@ -20,6 +20,7 @@ const initialState = {
 const FilterContext = React.createContext()
 
 export const FilterProvider = ({ children }) => {
+  const {products} = useProductsContext()
   const [state, dispatch] = useReducer(reducer, initialState)
   return (
     <FilterContext.Provider value='filter context'>
