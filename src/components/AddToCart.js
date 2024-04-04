@@ -9,7 +9,9 @@ const AddToCart = ({product}) => {
   const { id, stock, colors } = product
   const [mainColor, setMainColor] = useState(colors[0])
   
-  return <h4>addToCart </h4>
+  return <Wrapper>
+    
+  </Wrapper>
 }
 
 const Wrapper = styled.section`
