@@ -5,7 +5,9 @@ import Product from './Product'
 const GridView = ({products}) => {
   return <Wrapper>
     <div className='products-container'>
-      
+      {products.map((product) => {
+
+      })}
     </div>
   </Wrapper>
 }
