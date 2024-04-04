@@ -16,7 +16,7 @@ const AddToCart = ({product}) => {
   }
 
   const decrease = () => {
-    
+
   }
   
   return <Wrapper>
@@ -33,7 +33,10 @@ const AddToCart = ({product}) => {
         })
       }</div>
     </div>
-    <div className='btn-container'></div>
+    <div className='btn-container'>
+      <AmountButtons /> 
+      <Link ></Link>
+    </div>
   </Wrapper>
 }
 
