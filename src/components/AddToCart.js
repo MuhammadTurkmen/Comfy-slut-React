@@ -10,7 +10,9 @@ const AddToCart = ({product}) => {
   const [mainColor, setMainColor] = useState(colors[0])
   
   return <Wrapper>
-    <div className='colors'></div>
+    <div className='colors'>
+      <span></span>
+    </div>
     <div className='btn-container'></div>
   </Wrapper>
 }
