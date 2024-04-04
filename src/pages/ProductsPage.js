@@ -4,7 +4,7 @@ import { Filters, ProductList, Sort, PageHero } from '../components'
 
 const ProductsPage = () => {
   return <main>
-    <PageHero />
+    <PageHero title='products'/>
   </main>
 }
 
