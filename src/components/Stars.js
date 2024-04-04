@@ -10,7 +10,7 @@ const Stars = ({stars, reviews}) => {
     </div>
     <p className='reviews'>({reviews} customer reviews)</p>
   </Wrapper>
-}
+} 
 
 const Wrapper = styled.div`
   display: flex;
