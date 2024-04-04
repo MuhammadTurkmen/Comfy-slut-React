@@ -14,7 +14,7 @@ const AddToCart = ({product}) => {
       <span> colors : </span>
       <div>{
         colors.map((color, index) => {
-          return <button key={index}  className=''></button>
+          return <button key={index}  className=''>{index}</button>
         })
       }</div>
     </div>
