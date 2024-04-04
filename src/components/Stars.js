@@ -6,7 +6,8 @@ const Stars = ({stars, reviews}) => {
     <div className='stars'>
       {/* star */}
       <span>{stars >= 1 ? <BsStarFill /> : stars >= 0.5 ? <BsStarHalf /> : <BsStar />}</span>
-      <span>{stars >=2 ? <BsStarFill /> : stars >= 1.5 ? <BsStarHalf /> : <BsStar />}</span>
+      <span>{stars >= 2 ? <BsStarFill /> : stars >= 1.5 ? <BsStarHalf /> : <BsStar />}</span>
+      <span>{stars >= 3 ? <BsStarFill /> : stars >= 1.5 ? <BsStarHalf /> : <BsStar />}</span>
       {/* end of star */}
     </div>
     <p className='reviews'>({reviews} customer reviews)</p>
