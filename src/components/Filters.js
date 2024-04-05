@@ -17,7 +17,8 @@ const Filters = () => {
       shipping
     },
     updateFilters,
-    clearFilters
+    clearFilters,
+    all_products,
   } = useFilterContext()
   return <Wrapper>
     
