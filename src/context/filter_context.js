@@ -57,6 +57,9 @@ export const FilterProvider = ({ children }) => {
     dispatch({type: UPDATE_SORT, payload: value})
   }
   
+  const updateFilters = (e) => {
+    
+  }
   
   return (
     <FilterContext.Provider value={{...state , setGridView, setListView, updateSort}}>
