@@ -31,7 +31,7 @@ export const FilterProvider = ({ children }) => {
 
   useEffect(() => {
 
-  }, [])
+  }, [products, state.sort])
 
   const setGridView = () => {
     dispatch({type: SET_GRIDVIEW})
