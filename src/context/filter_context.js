@@ -62,14 +62,14 @@ export const FilterProvider = ({ children }) => {
   }
 
   const clearFilters = () => {
-    
+
   }
   
   return (
     <FilterContext.Provider value={{...state , setGridView, setListView, updateSort}}>
       {children}
     </FilterContext.Provider>
-  )
+  ) 
 }
 // make sure use
 export const useFilterContext = () => {
