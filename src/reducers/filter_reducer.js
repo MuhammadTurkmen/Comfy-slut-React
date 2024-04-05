@@ -57,7 +57,7 @@ const filter_reducer = (state, action) => {
   }
 
   if(action.type === UPDATE_FILTERS) {
-    
+    const {name, value} = action.payload
   }
   throw new Error(`No Matching "${action.type}" - action type`)
 }
