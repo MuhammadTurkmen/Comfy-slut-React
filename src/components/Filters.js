@@ -22,7 +22,13 @@ const Filters = () => {
   } = useFilterContext()
   return <Wrapper>
     <div className='content'>
-      <form onSubmit={(e) => e.preventDefault()}></form>
+      <form onSubmit={(e) => e.preventDefault()}>
+        {/* search input */}
+        <div className='form-conrol'>
+          <input />
+        </div>
+        {/* end of search input */}
+      </form>
     </div>
   </Wrapper>
 }
