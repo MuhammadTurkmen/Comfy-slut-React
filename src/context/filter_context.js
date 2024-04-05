@@ -68,7 +68,7 @@ export const FilterProvider = ({ children }) => {
   }
   
   return (
-    <FilterContext.Provider vcapacityalue={{
+    <FilterContext.Provider value={{
         ...state , 
         setGridView, 
         setListView, 
