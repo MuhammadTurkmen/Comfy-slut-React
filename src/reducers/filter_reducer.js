@@ -40,7 +40,7 @@ const filter_reducer = (state, action) => {
     if(sort === 'name-z') {
       console.log('name-z');
     }
-    return {...state}
+    return {...state, filtered_products: tempProducts}
   }
   throw new Error(`No Matching "${action.type}" - action type`)
 }
