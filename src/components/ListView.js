@@ -11,8 +11,10 @@ const ListView = ({products}) => {
         <div>
           <h4>{name}</h4>
           <h5 className='price'>{formatPrice(price)}</h5>
+          <p>{description}</p>
+          <Link to={} ></Link>
         </div>
-      </article> 
+      </article>  
     })}
   </Wrapper>
 }
