@@ -3,7 +3,10 @@ import { useFilterContext } from '../context/filter_context'
 import { BsFillGridFill, BsList } from 'react-icons/bs'
 import styled from 'styled-components'
 const Sort = () => {
-  return <h4>sort </h4>
+  const { filtered_products: prodcuts, grid_view} = useFilterContext()
+  return <Wrapper>
+    <div className='btn-container'></div>
+  </Wrapper>
 }
 
 const Wrapper = styled.section`
