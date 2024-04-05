@@ -6,10 +6,10 @@ const Sort = () => {
   const { filtered_products: prodcuts, grid_view, setGridview, setListView} = useFilterContext()
   return <Wrapper>
     <div className='btn-container'>
-      <button type='button' className={`${grid_view ? 'active' : null}`}>
+      <button type='button' className={`${grid_view ? 'active' : null}`} onClick={setGridview}>
         <BsFillGridFill />
       </button>
-      <button type='button' className={`${!grid_view ? 'active' : null}`}>
+      <button type='button' className={`${!grid_view ? 'active' : null}`} onClick={setListView}>
         <BsList />
       </button>
     </div>
