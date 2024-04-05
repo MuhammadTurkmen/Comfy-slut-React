@@ -41,7 +41,7 @@ const Filters = () => {
 }
 
 const Wrapper = styled.section`
-  .form-control {
+  .form-control { 
     margin-bottom: 1.25rem;
     h5 {
       margin-bottom: 0.5rem;
