@@ -34,11 +34,11 @@ const filter_reducer = (state, action) => {
     if(sort === 'price-highest') {
       console.log('price-highest');
     }
-    if(sort === 'price-lowest') {
-      console.log('price-lowest');
+    if(sort === 'name-a') {
+      console.log('name-a');
     }
-    if(sort === 'price-lowest') {
-      console.log('price-lowest');
+    if(sort === 'name-z') {
+      console.log('name-z');
     }
     return {...state}
   }
