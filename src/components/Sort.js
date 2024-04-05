@@ -17,6 +17,9 @@ const Sort = () => {
       {prodcuts.length} prodcuts found
     </p>
     <hr />
+    <form>
+      <label htmlFor='sort'>sort by</label>
+    </form>
   </Wrapper>
 }
 
