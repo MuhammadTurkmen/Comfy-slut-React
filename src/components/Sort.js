@@ -19,6 +19,12 @@ const Sort = () => {
     <hr />
     <form>
       <label htmlFor='sort'>sort by</label>
+      <select name='sort' id='sort' className='sort-input'>
+        <option value='price-lowest'>price (lowest)</option>
+        <option value='price-lowest'>price (lowest)</option>
+        <option value='price-lowest'>price (lowest)</option>
+        <option value='price-lowest'>price (lowest)</option>
+      </select>
     </form>
   </Wrapper>
 }
