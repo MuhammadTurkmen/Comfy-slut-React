@@ -85,6 +85,8 @@ const Wrapper = styled.section`
     font-size: 1rem;
     text-transform: capitalize;
     padding: 0.25rem 0.5rem;
+    background-color: #fff;
+    font-weight: bold;
   }
   label {
     font-size: 1rem;
