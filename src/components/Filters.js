@@ -21,7 +21,9 @@ const Filters = () => {
     all_products,
   } = useFilterContext()
   return <Wrapper>
-    
+    <div className='content'>
+      <form onSubmit={(e) => e.preventDefault()}></form>
+    </div>
   </Wrapper>
 }
 
