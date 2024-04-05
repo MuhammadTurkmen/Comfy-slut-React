@@ -25,7 +25,7 @@ const Filters = () => {
       <form onSubmit={(e) => e.preventDefault()}>
         {/* search input */}
         <div className='form-conrol'>
-          <input />
+          <input type='text' name='' />
         </div>
         {/* end of search input */}
       </form>
