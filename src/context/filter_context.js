@@ -58,7 +58,7 @@ export const FilterProvider = ({ children }) => {
   }
   
   const updateFilters = (e) => {
-
+    let name = e.target.name
   }
 
   const clearFilters = () => {
@@ -66,7 +66,7 @@ export const FilterProvider = ({ children }) => {
   }
   
   return (
-    <FilterContext.Provider value={{
+    <FilterContext.Provider vcapacityalue={{
         ...state , 
         setGridView, 
         setListView, 
