@@ -13,6 +13,10 @@ const Sort = () => {
         <BsList />
       </button>
     </div>
+    <p>
+      {prodcuts.length} prodcuts found
+    </p>
+    <hr />
   </Wrapper>
 }
 
