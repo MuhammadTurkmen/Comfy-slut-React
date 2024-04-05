@@ -29,6 +29,10 @@ export const FilterProvider = ({ children }) => {
     dispatch({type: LOAD_PRODUCTS, payload: products})
   }, [products])
 
+  useEffect(() => {
+
+  }, [])
+
   const setGridView = () => {
     dispatch({type: SET_GRIDVIEW})
   }
