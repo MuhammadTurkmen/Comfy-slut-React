@@ -58,6 +58,10 @@ export const FilterProvider = ({ children }) => {
   }
   
   const updateFilters = (e) => {
+
+  }
+
+  const clearFilters = () => {
     
   }
   
