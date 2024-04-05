@@ -5,7 +5,9 @@ import styled from 'styled-components'
 const Sort = () => {
   const { filtered_products: prodcuts, grid_view} = useFilterContext()
   return <Wrapper>
-    <div className='btn-container'></div>
+    <div className='btn-container'>
+      <button type='button'></button>
+    </div>
   </Wrapper>
 }
 
