@@ -30,6 +30,7 @@ const Filters = () => {
             name='text' 
             placeholder='search' 
             className='search-input'
+            onChange={updateFilters}
           />
         </div>
         {/* end of search input */}
