@@ -44,6 +44,7 @@ export const FilterProvider = ({ children }) => {
   }, [products, state.sort, state.filters])
 
   const setGridView = () => {
+    dispatch({type: FILTER_PRODUCTS})
     dispatch({type: SET_GRIDVIEW})
   }
   const setListView = () => {
