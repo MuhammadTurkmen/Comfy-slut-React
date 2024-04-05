@@ -29,7 +29,8 @@ const Filters = () => {
             type='text' 
             name='text' 
             placeholder='search' 
-            className='search-input'/>
+            className='search-input'
+          />
         </div>
         {/* end of search input */}
       </form>
