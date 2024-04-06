@@ -83,7 +83,7 @@ const Filters = () => {
                   key={index}
                   name='color' 
                   onClick={updateFilters} 
-                  date-color='all'
+                  data-color='all'
                   className={`${color === 'all' ? 'all-btn active' : 'all-btn'}`}
                 >all</button>
               }
