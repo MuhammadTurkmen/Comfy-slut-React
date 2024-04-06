@@ -84,7 +84,10 @@ const Filters = () => {
                 style={{background: c}}
                 className={`${color === c ? 'color-btn active' : 'color-btn'}`}
                 data-color={c}
-              ></button>
+                onClick={updateFilters}
+              >
+                {color === c ? <FaCheck /> : null}
+              </button>
             })}
           </div>
         </div>
