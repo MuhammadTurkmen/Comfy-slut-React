@@ -61,7 +61,12 @@ const Filters = () => {
         {/* companies */}
         <div className='form-control'>
           <h5>company</h5>
-          <select name='company' value={company} onChange={updateFilters}></select>
+          <select 
+            name='company' 
+            value={company} 
+            onChange={updateFilters} 
+            className='company'
+          ></select>
         </div>
         {/* end of companies */}
       </form>
