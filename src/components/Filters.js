@@ -65,7 +65,7 @@ const Filters = () => {
             name='company' 
             value={company} 
             onChange={updateFilters} 
-            className='company'
+            className='company' 
           >
             {companies.map((c, index) => {
               return <option key={index} value={c}>{c}</option>
