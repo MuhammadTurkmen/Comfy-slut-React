@@ -58,6 +58,8 @@ const Filters = () => {
           </div>
         </div>
         {/* end of categories */}
+        {/* companies */}
+        {/* end of companies */}
       </form>
     </div> 
   </Wrapper>
