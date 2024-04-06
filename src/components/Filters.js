@@ -68,7 +68,7 @@ const Filters = () => {
             className='company'
           >
             {companies.map((c, index) => {
-
+              return <option key={index} value={c}>{c}</option>
             })}
           </select>
         </div>
