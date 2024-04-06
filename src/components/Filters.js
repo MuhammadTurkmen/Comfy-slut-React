@@ -78,7 +78,12 @@ const Filters = () => {
           <h5>colors</h5>
           <div className='colors'>
             {colors.map((c, index) => {
-              return <button key={index} name='color' style={{background: c}}></button>
+              return <button 
+                key={index} 
+                name='color' 
+                style={{background: c}}
+                className={`${color === c ? 'color-btn active' : 'color-btn'}`}
+              ></button>
             })}
           </div>
         </div>
