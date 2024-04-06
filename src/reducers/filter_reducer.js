@@ -76,7 +76,7 @@ const filter_reducer = (state, action) => {
     } 
     // category
     if(category !== 'all') {
-      tempProducts = tempProducts
+      tempProducts = tempProducts 
     }
     // company  
     
