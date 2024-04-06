@@ -30,7 +30,7 @@ const Filters = () => {
     <div className='content'>
       <form onSubmit={(e) => e.preventDefault()}>
         {/* search input */}
-        <div className='form-conrol'>
+        <div className='form-control'>
           <input 
             type='text' 
             name='text' 
