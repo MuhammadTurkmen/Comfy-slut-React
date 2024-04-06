@@ -62,7 +62,7 @@ const filter_reducer = (state, action) => {
   }
 
   if(action.type === FILTER_PRODUCTS) {
-    
+    const {all_products} = state
     return {...state, }
   }
 
