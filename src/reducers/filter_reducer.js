@@ -66,7 +66,7 @@ const filter_reducer = (state, action) => {
     return {...state, }
   }
 
-  
+  if(action.type === CLEAR_FILTERS)
   
   throw new Error(`No Matching "${action.type}" - action type`)
 }
