@@ -79,7 +79,12 @@ const Filters = () => {
           <div className='colors'>
             {colors.map((c, index) => {
               if(c === 'all') {
-                return <button name='color' onClick={updateFilters} date-color='all'>all</button>
+                return <button 
+                  name='color' 
+                  onClick={updateFilters} 
+                  date-color='all'
+                  className={`${color === 'all' ? 'all-btn active' : 'all-btn'}`}
+                >all</button>
               }
               return <button 
                 key={index} 
