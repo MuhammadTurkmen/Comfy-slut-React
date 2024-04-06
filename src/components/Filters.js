@@ -109,6 +109,9 @@ const Filters = () => {
             type='range' 
             name='price' 
             onChange={updateFilters} 
+            min={min_price}
+            max={max_price}
+            value={price}
           />
         </div>
         {/* end of price */}
