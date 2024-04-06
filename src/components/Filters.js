@@ -102,6 +102,7 @@ const Filters = () => {
         </div>
         {/* end of colors */}
         {/* price */}
+        <div className='form-control'></div>
         {/* end of price */}
       </form>
     </div> 
