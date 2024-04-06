@@ -86,7 +86,8 @@ export const FilterProvider = ({ children }) => {
         setGridView, 
         setListView, 
         updateSort, 
-        updateFilters
+        updateFilters,
+        clearFilters
       }}>
       {children}
     </FilterContext.Provider>
