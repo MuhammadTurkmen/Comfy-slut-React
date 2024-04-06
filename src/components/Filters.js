@@ -123,6 +123,7 @@ const Filters = () => {
             name='shipping' 
             id='shipping' 
             onChange={updateFilters}
+            checked={shipping}
           />
         </div>
         {/* end of shipping */}
