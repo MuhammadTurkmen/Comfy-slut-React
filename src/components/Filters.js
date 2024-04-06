@@ -73,6 +73,8 @@ const Filters = () => {
           </select>
         </div>
         {/* end of companies */}
+        {/* colors */}
+        {/* end of colors */}
       </form>
     </div> 
   </Wrapper>
