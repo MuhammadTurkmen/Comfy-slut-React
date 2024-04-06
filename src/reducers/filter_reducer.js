@@ -65,7 +65,7 @@ const filter_reducer = (state, action) => {
     const {all_products} = state
 
     let tempProducts = [...all_products]
-    return {...state, }
+    return {...state, filtered_products: tempProducts}
   }
 
   if(action.type === CLEAR_FILTERS) {
