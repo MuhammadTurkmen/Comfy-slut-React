@@ -74,7 +74,7 @@ const Filters = () => {
         </div>
         {/* end of companies */}
         {/* colors */}
-        <div className='frm-control'>
+        <div className='form-control'>
           <h5>colors</h5>
           <div className='colors'>
             {colors.map((c, index) => {
@@ -105,6 +105,7 @@ const Filters = () => {
         <div className='form-control'>
           <h5>price</h5>
           <p className='price'>{formatPrice(price)}</p>
+          <input type='range' name='price'/>
         </div>
         {/* end of price */}
       </form>
