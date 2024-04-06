@@ -76,7 +76,7 @@ const filter_reducer = (state, action) => {
     }
     // category
     
-    // company
+    // company 
     
     return {...state, filtered_products: tempProducts}
   }
