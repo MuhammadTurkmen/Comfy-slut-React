@@ -83,6 +83,7 @@ const Filters = () => {
                 name='color' 
                 style={{background: c}}
                 className={`${color === c ? 'color-btn active' : 'color-btn'}`}
+                data-color={c}
               ></button>
             })}
           </div>
