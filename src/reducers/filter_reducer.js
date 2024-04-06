@@ -75,8 +75,10 @@ const filter_reducer = (state, action) => {
       })
     }
     // category
-    
-    // company 
+    if(category !== 'all') {
+      
+    }
+    // company  
     
     return {...state, filtered_products: tempProducts}
   }
