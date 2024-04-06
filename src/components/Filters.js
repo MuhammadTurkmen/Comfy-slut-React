@@ -77,8 +77,8 @@ const Filters = () => {
         <div className='frm-control'>
           <h5>colors</h5>
           <div className='colors'>
-            {colors.map((color, index) => {
-
+            {colors.map((c, index) => {
+              return <button key={index} name='color' style={{background: c}}></button>
             })}
           </div>
         </div>
