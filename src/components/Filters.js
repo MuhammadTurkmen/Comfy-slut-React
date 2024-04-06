@@ -46,7 +46,9 @@ const Filters = () => {
           <h5>category</h5>
           <div>
             {categories.map((c, index) => {
-              return <button key={index}></button>
+              return <button key={index}>
+                {c}
+              </button>
             })}
           </div>
         </div>
