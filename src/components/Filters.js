@@ -76,6 +76,7 @@ const Filters = () => {
         {/* colors */}
         <div className='frm-control'>
           <h5>colors</h5>
+          <div className='colors'></div>
         </div>
         {/* end of colors */}
       </form>
