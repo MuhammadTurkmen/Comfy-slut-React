@@ -80,6 +80,7 @@ const Filters = () => {
             {colors.map((c, index) => {
               if(c === 'all') {
                 return <button 
+                  key={index}
                   name='color' 
                   onClick={updateFilters} 
                   date-color='all'
