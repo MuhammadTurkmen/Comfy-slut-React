@@ -66,7 +66,11 @@ const Filters = () => {
             value={company} 
             onChange={updateFilters} 
             className='company'
-          ></select>
+          >
+            {companies.map((c, index) => {
+
+            })}
+          </select>
         </div>
         {/* end of companies */}
       </form>
