@@ -57,6 +57,7 @@ const cart_reducer = (state, action) => {
           if(newAmount > item.max) {
             newAmount = item.max
           }
+          return {...item, amount: newAmount}
         }
         if(value === 'dec') {
 
