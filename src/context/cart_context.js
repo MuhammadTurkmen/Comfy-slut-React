@@ -34,6 +34,11 @@ export const CartProvider = ({ children }) => {
   const clearCart = () => {
 
   } 
+
+  useEffect(() => {
+
+  }, [state.cart])
+  
   
   return (
     <CartContext.Provider value={{...state, addToCart, removeItem, toggleAmount, clearCart}}>{children}</CartContext.Provider>
