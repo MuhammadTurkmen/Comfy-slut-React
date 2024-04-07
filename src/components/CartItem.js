@@ -4,16 +4,20 @@ import { formatPrice } from '../utils/helpers'
 import AmountButtons from './AmountButtons'
 import { FaTrash } from 'react-icons/fa'
 import { useCartContext } from '../context/cart_context'
-const CartItem = () => {
+const CartItem = ({id, image, name, color, price, amount}) => {
   const {remveItem, tggleItem} = useCartContext()
   const increse = () => {
 
   }
 
   const decrease = () => {
-    
+
   }
-  return <Wrapper>cart item</Wrapper>
+  return <Wrapper>
+    <div className='title'>
+
+    </div>
+  </Wrapper>
 }
 
 const Wrapper = styled.article`
