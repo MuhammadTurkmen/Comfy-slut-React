@@ -14,7 +14,9 @@ const CartContent = () => {
       return <CartItem key={item.id} {...item} />
     })}
     <hr />
-    <div className='link-container'></div>
+    <div className='link-container'>
+      <Link to="/products" className='link-btn'>continue shopping</Link>
+    </div>
   </Wrapper>
 }
 const Wrapper = styled.section`
