@@ -21,12 +21,12 @@ export const CartProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState)
   
   // add to cart
-  const addToCart = (id) => {
-    
+  const addToCart = (id, color, amount, product) => {
+
   }
   
   return (
-    <CartContext.Provider value={{...state}}>{children}</CartContext.Provider>
+    <CartContext.Provider value={{...state, addToCart}}>{children}</CartContext.Provider>
   )
 }
 // make sure use
