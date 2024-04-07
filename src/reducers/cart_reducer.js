@@ -53,10 +53,13 @@ const cart_reducer = (state, action) => {
     const tempCart = state.cart.map((item) => {
       if(item.id === id) {
         if(value === 'inc') {
-
+          let newAmount = item.amount + 1
+          if(newAmount > item.max) {
+            newAmount = item.max
+          }
         }
         if(value === 'dec') {
-          
+
         }
       }
       else{
