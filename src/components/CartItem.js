@@ -5,7 +5,8 @@ import AmountButtons from './AmountButtons'
 import { FaTrash } from 'react-icons/fa'
 import { useCartContext } from '../context/cart_context'
 const CartItem = () => {
-  return <h4>cart item</h4>
+  const {remveItem, tggleItem} = useCartContext()
+  return <Wrapper>cart item</Wrapper>
 }
 
 const Wrapper = styled.article`
