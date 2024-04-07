@@ -10,6 +10,9 @@ const CartContent = () => {
   const {cart, clearCart} = useCartContext()
   return <Wrapper className='section section-center'>
     <CartColumns />
+    {cart.map((item) => {
+      return <CartItem key={item.id} {...item} />
+    })}
   </Wrapper>
 }
 const Wrapper = styled.section`
