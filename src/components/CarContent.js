@@ -18,6 +18,7 @@ const CartContent = () => {
       <Link to="/products" className='link-btn'>continue shopping</Link>
       <button type='button' className='link-btn clear-btn' onClick={clearCart}>clear shopping cart</button>
     </div>
+    <CartTotals />
   </Wrapper>
 }
 const Wrapper = styled.section`
