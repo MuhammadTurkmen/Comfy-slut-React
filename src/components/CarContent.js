@@ -7,7 +7,10 @@ import CartItem from './CartItem'
 import CartTotals from './CartTotals'
 
 const CartContent = () => {
-  return <h4>cart content </h4>
+  const {cart, clearCart} = useCartContext()
+  return <Wrapper className='section section-center'>
+    <CartColumns />
+  </Wrapper>
 }
 const Wrapper = styled.section`
   .link-container {
