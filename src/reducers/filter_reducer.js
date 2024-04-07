@@ -73,10 +73,10 @@ const filter_reducer = (state, action) => {
       tempProducts = tempProducts.filter((product) => {
         return product.name.toLowerCase().startsWith(text)
       })
-    }
+    } 
     // category
     if(category !== 'all') {
-      
+
     }
     // company  
     
