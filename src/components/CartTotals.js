@@ -11,6 +11,7 @@ const CartTotals = () => {
     <div>
       <article>
         <h5>subtotal : <span>{formatPrice(total_amount)}</span></h5>
+        <p>shipping fee : <span>{formatPrice(shipping_fee)}</span></p>
       </article>
     </div>
   </Wrapper>
