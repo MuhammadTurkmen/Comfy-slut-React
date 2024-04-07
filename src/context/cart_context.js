@@ -20,7 +20,7 @@ const getLocalStorage = () => {
 
 const initialState = {
   cart: getLocalStorage(),
-  total_item: 0,
+  total_items: 0,
   total_amount: 0,
   shipping_fee: 534,
 }
@@ -50,6 +50,7 @@ export const CartProvider = ({ children }) => {
   } 
 
   useEffect(() => {
+    dispatch({type: COUNT_CART_TOTALS})
     localStorage.setItem('cart', JSON.stringify(state.cart))
   }, [state.cart])
   
