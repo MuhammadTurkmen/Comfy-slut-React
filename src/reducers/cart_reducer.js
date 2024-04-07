@@ -60,7 +60,11 @@ const cart_reducer = (state, action) => {
           return {...item, amount: newAmount}
         }
         if(value === 'dec') {
-
+          let newAmount = item.amount - 1
+          if(newAmount < 1) {
+            newAmount = 1
+          }
+          return {...item, amount: newAmount}
         }
       }
       else{
