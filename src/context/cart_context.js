@@ -9,7 +9,7 @@ import {
 } from '../actions'
 
 const initialState = {
-  car: [],
+  cart: [],
   total_item: 0,
   total_amount: 0,
   shipping_fee: 534,
