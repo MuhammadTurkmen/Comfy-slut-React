@@ -24,6 +24,7 @@ const CartItem = ({id, image, name, color, price, amount}) => {
         <h5 className='price-small'>{formatPrice(price)}</h5>
       </div>
     </div>
+    <h5 className='price'>{formatPrice(price)}</h5>
   </Wrapper>
 }
 
