@@ -13,6 +13,8 @@ const CartContent = () => {
     {cart.map((item) => {
       return <CartItem key={item.id} {...item} />
     })}
+    <hr />
+    <div className='link-container'></div>
   </Wrapper>
 }
 const Wrapper = styled.section`
