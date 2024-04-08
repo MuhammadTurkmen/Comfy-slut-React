@@ -23,6 +23,9 @@ const CartButtons = () => {
     <button type='button' className='auth-btn'>
       Login <FaUserPlus />
     </button>
+    <button type='button' className='auth-btn'>
+      Logout <FaUserMinus />
+    </button>
   </Wrapper>
 }
 
