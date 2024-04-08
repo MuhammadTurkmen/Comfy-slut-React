@@ -1,4 +1,5 @@
 
+// domian/.netlify/functions/hello
 
 exports.handler = async function(event, context) {
     return {
