@@ -9,7 +9,7 @@ function App() {
   return (
     <AuthWrapper>
       <Router>
-        <Navbar />
+        <Navbar /> 
         <Sidebar />
         <Switch>
           <Route exact path="/">
