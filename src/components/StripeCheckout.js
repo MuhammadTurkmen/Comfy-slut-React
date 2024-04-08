@@ -22,7 +22,8 @@ const CheckoutForm = () => {
 const StripeCheckout = () => {
   const {cart, total_amount, shipping_fee, clearCart} = useCartContext()
   const {myUser} = useUserContext()
-  
+  const history = useHistory()
+  // STRIPE STUFF
    const cardStyle = {
     style: {
       base: {
