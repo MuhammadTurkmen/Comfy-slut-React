@@ -4,7 +4,18 @@ import styled from 'styled-components'
 
 const AuthWrapper = ({children}) => {
   const {isLoading, error} = useAuth0()
-  return <h4>AuthWrapper Component</h4>
+  if( isLoading) {
+    return <Wrapper>
+    <h1>Loading...</h1>
+  </Wrapper>
+  }
+
+  if(error) {
+    return<Wrapper>
+      <h1>Loading...</h1>
+    </Wrapper>
+  }
+  return 
 }
 
 const Wrapper = styled.section`
