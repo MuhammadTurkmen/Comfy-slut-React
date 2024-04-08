@@ -28,7 +28,11 @@ const Nav = () => {
             <Link to={url} >{text}</Link>
           </li>
         })}
+        {myUser && <li>
+          <Link to='/checkout'>checkout</Link>
+          </li>}
       </ul>
+      
       <CartButtons />
     </div>
   </NavContainer>
