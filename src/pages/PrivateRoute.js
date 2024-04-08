@@ -6,6 +6,6 @@ import { useUserContext } from '../context/user_context';
 
 const PrivateRoute = ({children, ...rest}) => {
   const {myUser} = useUserContext()
-  return <h4>Private Route</h4>;
+  return <Route >Private Route</Route>;
 };
 export default PrivateRoute;
