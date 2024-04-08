@@ -12,7 +12,7 @@ const AuthWrapper = ({children}) => {
 
   if(error) {
     return<Wrapper>
-      <h1>Loading...</h1>
+      <h1>{error.message}</h1>
     </Wrapper>
   }
   return 
