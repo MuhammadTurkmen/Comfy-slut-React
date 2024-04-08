@@ -16,8 +16,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <Auth0Provider
-    domain=''
-    clientId=''
+    domain='dev-rka3n06c3krrricb.us.auth0.com'
+    clientId='XBff7bXEFEgH66loWu1y7kJecqy6w4xp'
     redirectUri={window.location.origin}
   >
     <ProductsProvider>
