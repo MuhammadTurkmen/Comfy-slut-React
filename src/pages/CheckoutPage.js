@@ -14,9 +14,15 @@ const CheckoutPage = () => {
         <h2>your cart is empty</h2>
         <Link to="/products"  className="btn">fill it</Link>
       </div>: <StripeCheckout />}
-      <h1>checkout here</h1>
     </Wrapper>
   </main>
 }
-const Wrapper = styled.div``
+const Wrapper = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+  .empty {
+    text-align: center
+  }
+`
 export default CheckoutPage
