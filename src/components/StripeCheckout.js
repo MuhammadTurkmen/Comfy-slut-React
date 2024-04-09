@@ -28,8 +28,9 @@ const StripeCheckout = () => {
   const [error, setError] = useState(null)
   const [processing, setProcessing] = useState('')
   const [disabled, setDisabled] = useState(true)
+  const [clientSecret, setClientSecret]
 
-   const cardStyle = {
+  const cardStyle = {
     style: {
       base: {
         color: '#32325d',
