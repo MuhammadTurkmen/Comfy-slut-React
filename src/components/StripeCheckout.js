@@ -74,6 +74,15 @@ const CheckoutForm = () => {
         card: elements.getElement(CardElement)
       }
     })
+    if(payload.error) {
+      setError(`Payment failed ${payload.error.message}`)
+      setProcessing(false)
+    }
+    else {
+      setError(null)
+      setProcessing(false)
+      setSucceeded(true)
+    }
   }
 
   
