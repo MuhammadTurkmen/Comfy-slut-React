@@ -22,7 +22,7 @@ function App() {
               <Checkout />
             </PrivateRoute>
           } />
-          <Route path='/' element={<Home />} />
+          <Route path='*' element={<Error />} />
         </Routes>
         <Footer />
       </Router>
