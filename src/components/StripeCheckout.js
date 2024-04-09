@@ -47,7 +47,7 @@ const CheckoutForm = () => {
   };
 
   const creatPaymentIntent = async () => {
-
+    console.log('hello from stripe checkout');
   }
 
   
