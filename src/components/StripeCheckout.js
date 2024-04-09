@@ -80,6 +80,7 @@ const CheckoutForm = () => {
       </article>
       : <article>
         <h4>Hello, {myUser && myUser.name}</h4>
+        <p>Your total is {formatPrice(shipping_fee + total_amount)}</p>
       </article>
     }
     <form id='payment-form' onSubmit={handleSubmit}>
