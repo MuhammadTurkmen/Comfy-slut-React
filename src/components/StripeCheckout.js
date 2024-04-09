@@ -71,6 +71,7 @@ const CheckoutForm = () => {
           {processing ? <div className='spinner' id='spinner'></div> : 'Pay'}
         </span>
       </button>
+      {/* show any error that happens when processing  the payment*/}
     </form>
   </div>
 }
