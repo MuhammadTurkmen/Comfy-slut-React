@@ -71,6 +71,13 @@ const CheckoutForm = () => {
 
   
   return <div>
+    {
+      succeeded ? 
+      <article>
+        <h4>Thank you</h4>
+        <h4>You payment was successful!</h4>
+      </article>
+    }
     <form id='payment-form' onSubmit={handleSubmit}>
       <CardElement id='card-element' options={cardStyle} onChange={handleChange} />
       <button disabled={processing || disabled || succeeded} id='submit'>
