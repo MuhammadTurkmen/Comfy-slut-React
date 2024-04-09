@@ -1,5 +1,5 @@
 
-// domian/.netlify/functions/create-paymentintent
+// domian/.netlify/functions/create-payment-intent
 
 
 exports.handler = async function(event, context) {
