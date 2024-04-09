@@ -1,9 +1,6 @@
 
-// domian/.netlify/functions/hello
-const items = [
-    {id: 1, name: 'john'},
-    {id: 2, name: 'susan'}
-]
+// domian/.netlify/functions/create-paymentintent
+
 
 exports.handler = async function(event, context) {
     return {
