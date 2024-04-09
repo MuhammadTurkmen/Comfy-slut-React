@@ -63,7 +63,9 @@ const CheckoutForm = () => {
   }
 
   
-  return <h4>hello from Stripe Checkout </h4>
+  return <div>
+    <form id='payment-form' onSubmit={handleSubmit}></form>
+  </div>
 }
 
 const StripeCheckout = () => {
