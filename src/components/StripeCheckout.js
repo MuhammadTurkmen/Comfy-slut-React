@@ -75,6 +75,7 @@ const CheckoutForm = () => {
       {error && <div className='card-error' role='alert'>
         {error}
       </div>}
+      {/* show a success massage upon completion */}
     </form>
   </div>
 }
