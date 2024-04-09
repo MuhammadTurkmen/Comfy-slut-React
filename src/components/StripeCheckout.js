@@ -77,7 +77,8 @@ const CheckoutForm = () => {
       </div>}
       {/* show a success message upon completion */}
       <p className={succeeded ? 'result-message' : 'result-message hidden'}>
-        Payment succeeded
+        Payment succeeded, see the result in your
+        <a href={`https://dashboard.stripe.com/test/payments`}
       </p>
     </form>
   </div>
