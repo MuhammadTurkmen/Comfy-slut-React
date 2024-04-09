@@ -32,7 +32,7 @@ const SingleProductPage = () => {
   useEffect(() => {
     if(error) {
       setTimeout(() => {
-        history.push('/')
+        navigate('/')
       }, 3000);
     }
     // eslint-disable-next-line
