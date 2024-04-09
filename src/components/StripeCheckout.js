@@ -51,7 +51,8 @@ const CheckoutForm = () => {
   }
 
   useEffect(() => {
-
+    creatPaymentIntent()
+    // eslint-disable-next-line
   }, [])
 
   
