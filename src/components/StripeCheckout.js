@@ -76,6 +76,7 @@ const CheckoutForm = () => {
       <article>
         <h4>Thank you</h4>
         <h4>You payment was successful!</h4>
+        <h4>Redirecting to home page short</h4>
       </article>
     }
     <form id='payment-form' onSubmit={handleSubmit}>
