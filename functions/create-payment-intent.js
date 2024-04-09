@@ -1,6 +1,6 @@
 
 // domian/.netlify/functions/create-payment-intent
-
+require('dotenv').config()
 
 exports.handler = async function(event, context) {
     if(event.body) {
@@ -11,5 +11,9 @@ exports.handler = async function(event, context) {
             statusCode: 200,
             body: JSON.stringify(cart)
         }
+    }
+    return {
+        statusCode: 200,
+        body: 'Creat Payment Intent'
     }
 }
