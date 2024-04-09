@@ -50,6 +50,10 @@ const CheckoutForm = () => {
     console.log('hello from stripe checkout');
   }
 
+  useEffect(() => {
+
+  }, [])
+
   
   return <h4>hello from Stripe Checkout </h4>
 }
