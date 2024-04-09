@@ -81,6 +81,7 @@ const CheckoutForm = () => {
         <a href={`https://dashboard.stripe.com/test/payments`}>
           Stripe dashboard.
         </a>
+        Refresh the page to pay again
       </p>
     </form>
   </div>
