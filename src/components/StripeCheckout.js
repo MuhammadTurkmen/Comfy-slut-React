@@ -27,7 +27,8 @@ const StripeCheckout = () => {
   const [succeeded, setSucceeded] = useState(false)
   const [error, setError] = useState(null)
   const [processing, setProcessing] = useState('')
-  
+  const [disabled, setDisabled] = useState(true)
+
    const cardStyle = {
     style: {
       base: {
