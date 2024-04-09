@@ -13,9 +13,13 @@ exports.handler = async function(event, context) {
             return shipping_fee + total_amount
         }
         
-        return {
-            statusCode: 200,
-            body: JSON.stringify(cart)
+        try {
+            const paymentIntent = await stripe.paymentIntents.create({
+                amount: calculateOrderAmount(),
+                currency: 'usd'
+            })
+        } catch (error) {
+            
         }
     }
     return {
