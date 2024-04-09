@@ -78,6 +78,9 @@ const CheckoutForm = () => {
         <h4>You payment was successful!</h4>
         <h4>Redirecting to home page short</h4>
       </article>
+      : <article>
+        <h4>Hello, {myUser && myUser.name}</h4>
+      </article>
     }
     <form id='payment-form' onSubmit={handleSubmit}>
       <CardElement id='card-element' options={cardStyle} onChange={handleChange} />
