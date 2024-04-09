@@ -56,6 +56,9 @@ const CheckoutForm = () => {
   }, [])
 
   const handleChange = async (event) => {
+
+  }
+  const handleSubmit = async (ev) => {
     
   }
 
