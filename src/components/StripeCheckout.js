@@ -30,7 +30,7 @@ const StripeCheckout = () => {
   const [disabled, setDisabled] = useState(true)
   const [clientSecret, setClientSecret] = useState('')
   const stripe = useStripe()
-  const element = useElements()
+  const elements = useElements()  
 
   const cardStyle = {
     style: {
