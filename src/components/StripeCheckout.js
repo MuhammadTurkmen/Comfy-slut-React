@@ -64,7 +64,9 @@ const CheckoutForm = () => {
 
   
   return <div>
-    <form id='payment-form' onSubmit={handleSubmit}></form>
+    <form id='payment-form' onSubmit={handleSubmit}>
+      <CardElement id='card-element' options={cardStyle} onChange={handleChange} />
+    </form>
   </div>
 }
 
