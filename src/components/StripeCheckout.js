@@ -72,6 +72,7 @@ const CheckoutForm = () => {
         </span>
       </button>
       {/* show any error that happens when processing  the payment*/}
+      {error && <div className='card-error'></div>}
     </form>
   </div>
 }
