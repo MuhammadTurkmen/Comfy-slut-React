@@ -82,6 +82,9 @@ const CheckoutForm = () => {
       setError(null)
       setProcessing(false)
       setSucceeded(true)
+      setTimeout(() => {
+        
+      }, 10000);
     }
   }
 
